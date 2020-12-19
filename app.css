@@ -27,7 +27,7 @@ input{
                      -13px -13px 20px #ffffff;
    box-shadow: 13px 13px 20px #cbced1,
                -13px -13px 20px #ffffff;
-   transition: 0.5s ease-in-out;
+   /* transition: 0.5s ease-in-out; */
 }
 .logo{
    background-image: url("logo.jpg");
@@ -90,10 +90,10 @@ input{
    margin-bottom: 30px;
    border-radius: 25px;
    box-sizing: border-box ;
-   -webkit-box-shadow: inset 8px 8px 8px #cbced1,
-                        inset -8px -8px 8px #ffffff;
-   box-shadow:inset 8px 8px 8px #cbced1,
-               inset -8px -8px 8px #ffffff;
+   -webkit-box-shadow: inset 4px 4px 8px #cbced1,
+                        inset -4px -4px 8px #ffffff;
+   box-shadow:inset 4px 4px 8px #cbced1,
+               inset -4px -4px 8px #ffffff;
 }
 .svg-icon{
    height:25px;
@@ -113,7 +113,7 @@ input{
    background-color: #24cfaa;
    -webkit-box-shadow:3px 3px 8px #cbced1,
                      -3px -3px 8px #ffffff;
-   box-shadow: 3px 3px 8px #cbced1,
+   box-shadow: 3px 2px 8px #cbced1,
                -3px -3px 8px #ffffff;
    transition:background-color linear .5s ;
 }
@@ -138,6 +138,11 @@ input{
 .span{
    margin:0 5px;
 }
+/* .title,.sub-title,.fields input,.fields input::placeholder,a{
+   color: #ecf0f3 !important;
+   text-shadow: 2px 2px 2px  #cbced1,
+               -2px -2px 2px #ffffff !important;
+} */
 
 @media(max-width:500px){
    .login-div{
@@ -152,7 +157,7 @@ input{
       font-size:16px;
    }
    .username, .password{
-      height:3em;
+      height:3.3em;
    }
 }
 @media(max-width:400px){
